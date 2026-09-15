@@ -1,0 +1,48 @@
+body {
+  background-color: #a9c8f5;
+  font-family: Arial, sans-serif;
+}
+
+.kontakt-karta {
+  background-color: white;
+  width: 350px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+label {
+  font-weight: bold;
+  color: #1a1a40;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  background-color: #2952e3;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid #2952e3;
+  outline: none;
+}
+
+button:hover {
+  background-color: #1a3bb5;
+}

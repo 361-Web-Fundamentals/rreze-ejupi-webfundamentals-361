@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular Regjistrimi</title>
+</head>
+<body>
+    
+    <h1>Formular Regjistrimi</h1>
+
+    <form>
+        
+        <label for="emri">Emri:</label>
+        <input type="text" id="emri" placeholder="Shkruaj emrin" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Shkruaj email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Fjalekalimi" required>
+        <br><br>
+
+
+
+        <p>Gjinia:</p>
+
+        <label for="mashkull">Mashkull</label>
+        <input type="radio" id="mashkull" name="gjinia" value="mashkull">
+        <br>
+
+        <label for="femer">Femer</label>
+        <input type="radio" id="femer" name="gjinia" value="femer">
+        <br>
+
+
+        <p>Hobi:</p>
+
+        <label for="sport">Sport</label>
+        <input type="checkbox" id="sport">
+        <br>
+
+        <label for="muzike">Muzike</label>
+        <input type="checkbox" id="muzike">
+        <br>
+
+        <label for="lexim">Lexim</label>
+        <input type="checkbox" id="lexim">
+        <br>
+
+        <label for="bio">Biografia:</label>
+        <textarea id="bio" row="4" cols="30" placeholder="Shkruaj dicka..."></textarea>
+        <br>    
+
+        <button type="submit">Dergo</button>
+        <button type="reset">Pastro</button>
+
+    </form>
+
+</body>
+</html>
