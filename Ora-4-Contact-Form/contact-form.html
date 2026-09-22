@@ -1,28 +1,31 @@
-<!DOCTYPE html>
-<html lang="sq">
-<head>
-  <meta charset="UTF-8">
-  <title>Na Kontaktoni</title>
-  <link rel="stylesheet" href="contact-form.css">
-</head>
-<body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="contact-form.css" />
+  </head>
+  <body>
+    <div class="kontakt-karta">
+      <h2>Na Kontaktoni</h2>
 
-  <div class="kontakt-karta">
-    <h2>Na Kontaktoni</h2>
+      <form>
+        <label for="emri">Emri:</label><br>
+        <input type="text" id="emri" name="emri" placeholder="Shkruaj emrin" />
+        <br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Shkruaj emailin">
+        <br><br>
 
-    <form action="#" method="POST">
-      <label for="emri">Emri</label><br>
-      <input type="text" id="emri" name="emri" placeholder="Shkruaj emrin"><br><br>
+        <label for="mesazhi">Mesazhi</label><br>
+        <textarea id="mesazhi" name="mesazhi" rows="5" placeholder="Shkruaj mesazhin..."></textarea>
+        <br><br>
 
-      <label for="email">Email</label><br>
-      <input type="email" id="email" name="email" placeholder="Shkruaj email-in"><br><br>
+        <button type="sumbit">Dergo Mesazhin</button>
 
-      <label for="mesazhi">Mesazhi</label><br>
-      <textarea id="mesazhi" name="mesazhi" rows="5" placeholder="Shkruaj mesazhin..."></textarea><br><br>
-
-      <button type="submit">Dërgo Mesazhin</button>
-    </form>
-  </div>
-
-</body>
+      </form>
+    </div>
+  </body>
 </html>

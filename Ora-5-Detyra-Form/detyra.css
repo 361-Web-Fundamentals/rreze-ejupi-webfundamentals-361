@@ -1,0 +1,81 @@
+body {
+  background-color: #eef1fb;
+  font-family: Arial, sans-serif;
+}
+
+.forma-karta {
+  background-color: white;
+  width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+.titull-grupi {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Kjo klasë e vendosëm te text, email, password, textarea dhe select —
+   kështu i stilizojmë njësoj pa prekur radio/checkbox */
+.fusha-teksti {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.fusha-teksti:focus {
+  border: 1px solid #5c6bc0;
+  outline: none;
+}
+
+/* Kjo klasë shkon te radio buttons dhe checkboxes */
+.kutize {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.buton-dergo {
+  background-color: #5c6bc0;
+  color: white;
+}
+
+.buton-dergo:hover {
+  background-color: #3f4bb0;
+}
+
+.buton-pastro {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.buton-pastro:hover {
+  background-color: #cfcfcf;
+}
